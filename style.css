@@ -1,0 +1,132 @@
+.black
+    {
+    background-color:white;
+    margin: 0;
+    }
+.links
+    {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    
+    margin: 0px;
+    }
+.words
+    {
+    color:#a0a0a0;
+    position: relative;
+    text-decoration: none;
+    font-family:'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    padding: 0 10px;
+    }
+.words:after
+    {
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s;
+    }
+.words:hover
+    {
+    color:white;
+    }
+.words:hover:after
+    {
+    width: 100%;
+    }
+.h  
+    {
+    color:black;
+    font-family:'Poppins',sans-serif;
+    text-decoration: underline;
+    font-weight: 100;
+    font-style: italic;
+
+    }
+.p 
+    {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: start;
+    text-indent: 70px;
+    line-height: 24px;
+    }
+.ribbon
+    {
+    background-color:red;
+    width: 100%;
+    height:4px;
+    }  
+.linksm
+    {
+    justify-content: space-around;
+    align-items: center;
+    width: 1350px;
+    height: 100%;
+    margin: 0px;
+
+    
+    display: flex;
+    
+    
+    }
+.mback
+    {
+    background-image: url("img/n.jpg");
+     background-size: cover;
+    }
+.MAINOUTLINE
+    {
+    /* border: 4px solid red ;
+    border-radius: 5px; */
+    }
+.image
+   {
+   width: 200px;
+   height: 200px;
+   border: 5px solid black;
+   border-radius:500px;
+   
+   }
+.img1{
+   justify-content:space-evenly;
+    align-items: center;
+    width: 1500px;
+    height: 50%;
+    display: flex;
+    }
+.img2
+    { 
+        align-items: center;
+        justify-content: space-around;
+        width: 1400px;
+        height: 1px;
+        display: flex;
+
+    
+    }
+
+.h3 
+    {
+    text-align: left;
+    text-indent: 2%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;   
+    }
+.border
+    {
+    border: 4px solid black;
+    }
+.li
+   {
+    font-family: 'Times New Roman', Times, serif;
+   }
